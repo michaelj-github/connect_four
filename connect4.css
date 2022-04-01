@@ -22,6 +22,8 @@ body {
   width: 80%;
   height: 80%;
   border-radius: 50%;
+  animation-name: dropDown;
+  animation-duration: 1s;
 }
 
 /* TODO: make pieces red/blue,  depending on player 1/2 piece, "#FFDD00" or "#0057B7" */
@@ -44,3 +46,13 @@ body {
   color: black;
   text-shadow: 2px 2px 4px #000000;
 }
+
+@keyframes dropDown {
+  from {
+  margin-top: -400px;
+  }
+  to {
+  margin-bottom: 0px;
+  }
+  }
+  
