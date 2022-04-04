@@ -3,10 +3,6 @@ body {
   background-color: ivory;
 }
 
-/* #game {
-  margin: auto;
-  width: 50%;
-} */
 #board td {
   width: 50px;
   height: 50px;
@@ -26,7 +22,15 @@ body {
   animation-duration: 1s;
 }
 
-/* TODO: make pieces red/blue,  depending on player 1/2 piece, "#FFDD00" or "#0057B7" */
+/* TODO: make pieces red/blue,  depending on player 1/2 piece, "#FFD700" or "#0057B7" */
+
+.piece1 {
+  background-color: #FFD700;
+}
+
+.piece2 {
+  background-color: #0057B7;
+}
 
 /* column-top is table row of clickable areas for each column */
 
@@ -44,7 +48,8 @@ body {
   height: 50px;
   font-size: 30px;
   color: black;
-  text-shadow: 2px 2px 4px #000000;
+  font-weight: bold;
+  /* text-shadow: 2px 2px 4px #000000; */
 }
 
 @keyframes dropDown {
@@ -55,4 +60,3 @@ body {
   margin-bottom: 0px;
   }
   }
-  
